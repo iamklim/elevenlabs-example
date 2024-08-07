@@ -1,8 +1,12 @@
-## Installation & Running the app
+## Installation
 
 ```bash
 $ npm install
 ```
+
+## env
+
+Please add `ELEVENLABS_API_KEY` to your local `.env` file.
 
 ## Running the app
 
@@ -18,5 +22,5 @@ Received audio files are saved to `/tmp/{sessionId}` directory on your local mac
 
 Please check console logs to see the details and folder path.
 
-File names are `audio_{index}.mp3`.
+Audio file names are `audio_{index}.mp3`, there will be 8 files.
 

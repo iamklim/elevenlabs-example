@@ -53,7 +53,7 @@ export class ElevenlabsService {
           url,
           {
             text,
-            previous_request_ids: previousRequestIds,
+            // previous_request_ids: previousRequestIds,
             previous_text: previousText,
             next_text: nextText,
             model_id: this.modelId,
